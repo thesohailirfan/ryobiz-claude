@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4 – 19 Oct 2026
+
+- Points `documentationUrl` at the Ryobiz docs page, https://ryobiz.in/docs.
+
 ## 1.0.3 – 19 Oct 2026
 
 - Adds directory listing links to `plugin.json`: documentation, support, privacy policy and terms of service.
