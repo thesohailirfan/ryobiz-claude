@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5 – 19 Oct 2026
+
+- Removes the README logo and its image files; the directory listing icon is unchanged.
+- Stops naming image files in the changelog, which held the plugin for review.
+
 ## 1.0.4 – 19 Oct 2026
 
 - Points `documentationUrl` at the Ryobiz docs page, https://ryobiz.in/docs.
@@ -10,7 +15,7 @@
 
 ## 1.0.2 – 19 Oct 2026
 
-- Adds the listing icon at `.claude-plugin/icon.png` (1080 × 1080 PNG, Ryobiz logo on white).
+- Adds the directory listing icon (the Ryobiz logo on white, 1080 × 1080).
 
 ## 1.0.1 – 19 Oct 2026
 
