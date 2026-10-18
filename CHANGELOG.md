@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 – 19 Oct 2026
+
+- Commands now trigger from plain requests in claude.ai chat, where they load as skills, and
+  ask for missing details when no arguments are passed.
+- README shows the Cowork command names (`/ryobiz:brief`, `/ryobiz:month-end-rent`,
+  `/ryobiz:new-sale`) and explains that chat uses plain requests instead.
+
 ## 1.0.0 – 18 Oct 2026
 
 Initial release.

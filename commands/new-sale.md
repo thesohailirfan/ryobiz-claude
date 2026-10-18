@@ -1,11 +1,15 @@
 ---
-description: Start a Ryobiz quotation or invoice for a customer and items
+description: Start a Ryobiz quotation or invoice. Use when the user wants to quote, bill or invoice a customer for specific items and quantities.
 argument-hint: "<customer> <items and quantities> [quote|invoice]"
 ---
 
 Run the Ryobiz **shop-sales** skill workflow for this sale:
 
 $ARGUMENTS
+
+If the details above are blank or an unfilled placeholder, take the customer and items
+from the conversation, and ask for anything still missing (customer, items with
+quantities, quotation or invoice) before looking anything up.
 
 Resolve the workspace with `list_workspaces`. Find the customer with `list_shop_parties`
 (offer to create it with `save_shop_party` if missing, after confirming). Resolve items

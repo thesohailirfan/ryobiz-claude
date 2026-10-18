@@ -54,11 +54,12 @@ Skills (loaded automatically when relevant):
 - **work-management**: projects, work items, cycles, milestones, approvals, decisions and risks.
 - **team-capacity**: workload, assignment recommendations, rebalancing.
 
-Commands:
+Commands. In Cowork, type them with the plugin prefix. In claude.ai chat there's no slash
+command; just ask (for example "give me my brief") and Claude runs the matching workflow.
 
-- `/brief`: run the daily brief.
-- `/month-end-rent [month]`: run the month-end rental billing workflow.
-- `/new-sale <customer> <items>`: start a quotation or invoice.
+- `/ryobiz:brief`: run the daily brief.
+- `/ryobiz:month-end-rent [month]`: run the month-end rental billing workflow.
+- `/ryobiz:new-sale <customer> <items>`: start a quotation or invoice.
 
 ## Data & privacy
 
