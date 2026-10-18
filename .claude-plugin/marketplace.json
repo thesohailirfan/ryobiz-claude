@@ -1,0 +1,6 @@
+{
+  "name": "ryobiz-marketplace",
+  "description": "Ryobiz plugin for Claude: shop sales, inventory, deliveries, GST, rental billing and team work.",
+  "owner": { "name": "Ryobiz" },
+  "plugins": [ { "name": "ryobiz", "source": "./" } ]
+}

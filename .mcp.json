@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "ryobiz": { "type": "http", "url": "https://api.ryobiz.in/mcp" }
+  }
+}
