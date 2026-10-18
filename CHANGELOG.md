@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 – 19 Oct 2026
+
+- Adds the listing icon at `.claude-plugin/icon.png` (1080 × 1080 PNG, Ryobiz logo on white).
+
 ## 1.0.1 – 19 Oct 2026
 
 - Commands now trigger from plain requests in claude.ai chat, where they load as skills, and
