@@ -1,5 +1,10 @@
 # Ryobiz – Run your own business
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ryobiz-logo-white.png">
+  <img src="assets/ryobiz-logo-black.png" alt="Ryobiz logo" width="120">
+</picture>
+
 ## What it does
 
 Ryobiz is a business operating system for small and mid-size businesses in India. This

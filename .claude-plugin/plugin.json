@@ -3,7 +3,7 @@
   "displayName": "Ryobiz – Run your own business",
   "version": "1.0.0",
   "description": "Run shop sales, inventory, deliveries, GST, rental billing and team work in Ryobiz from a conversation with Claude.",
-  "author": { "name": "Ryobiz", "url": "https://ryobiz.in" },
+  "author": { "name": "Ryobiz", "email": "info@ryobiz.in", "url": "https://ryobiz.in" },
   "homepage": "https://ryobiz.in",
   "repository": "https://github.com/thesohailirfan/ryobiz-claude",
   "license": "MIT",
