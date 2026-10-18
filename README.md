@@ -16,23 +16,13 @@ follows Ryobiz's own permissions and approval rules, and it asks before changing
 
 ## Setup
 
-1. Install the **Ryobiz** plugin in Claude (claude.ai, Cowork or Claude Code).
+1. Install the **Ryobiz** plugin in Claude on **claude.ai** or **Cowork**.
 2. Open the plugin's **Connectors** tab and connect the **Ryobiz** connector.
 3. Sign in with your Ryobiz account and choose the workspaces and access to grant.
 4. Ask "What can Ryobiz do in my workspace?" to get started.
 
-In Claude Code, install it straight from this repository:
-
-```bash
-/plugin install ryobiz --marketplace thesohailirfan/ryobiz-claude
-```
-
-On older Claude Code versions, add the marketplace first:
-
-```bash
-/plugin marketplace add thesohailirfan/ryobiz-claude
-/plugin install ryobiz@ryobiz-marketplace
-```
+> **Claude Code:** signing in to Ryobiz from Claude Code isn't supported yet. The plugin
+> installs, but the Ryobiz sign-in step won't complete. Use claude.ai or Cowork for now.
 
 You need an existing Ryobiz account. What Claude can do depends on the features enabled
 in your workspace, your role there, and the access you granted at sign-in.
