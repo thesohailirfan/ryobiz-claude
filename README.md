@@ -16,11 +16,17 @@ follows Ryobiz's own permissions and approval rules, and it asks before changing
 3. Sign in with your Ryobiz account and choose the workspaces and access to grant.
 4. Ask "What can Ryobiz do in my workspace?" to get started.
 
-In Claude Code you can also install it from a local copy of this folder:
+In Claude Code, install it straight from this repository:
 
 ```bash
-claude plugin marketplace add ./claude-plugin
-claude plugin install ryobiz@ryobiz-marketplace
+/plugin install ryobiz --marketplace thesohailirfan/ryobiz-claude
+```
+
+On older Claude Code versions, add the marketplace first:
+
+```bash
+/plugin marketplace add thesohailirfan/ryobiz-claude
+/plugin install ryobiz@ryobiz-marketplace
 ```
 
 You need an existing Ryobiz account. What Claude can do depends on the features enabled
